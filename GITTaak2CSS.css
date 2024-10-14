@@ -46,3 +46,10 @@ html, body {
     font-weight: bold;
     text-decoration: none;
 }
+
+.video
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
