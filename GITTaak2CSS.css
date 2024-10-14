@@ -3,7 +3,7 @@ nav {
     display: flex;
 }
 
-nav > div {
+nav div {
     width: 33%;
     text-align: center;
 }
@@ -20,7 +20,7 @@ nav > div {
 }
 .midden
 {
-
+    text-decoration: none;
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -30,10 +30,19 @@ nav > div {
 
 
 
-
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+}
+
+.rechts p {
+    display:inline-block;
+    background:red;
+    border-radius: 12px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
